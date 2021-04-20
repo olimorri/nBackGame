@@ -1,5 +1,6 @@
 async function getLetters(req, res) {
   const selectedLetters = [];
+  //Set letters from which we will get a randomly generated sample
   const letters = {
     1: 'A',
     2: 'B',
