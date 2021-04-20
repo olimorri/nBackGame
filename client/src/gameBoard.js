@@ -77,7 +77,7 @@ export default function GameBoard(props) {
       {letters.length && index === letters.length ? (
         <div>
           <h2>
-            Well done! <br /> Here are your results...
+            Well done {name}!<br /> Here are your results...
           </h2>
           <p>Correct Matches: {matchedNumber}</p>
           <p>Incorrect Guesses: {errors}</p>
